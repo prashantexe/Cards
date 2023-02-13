@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.containerss {
+    position: absolute;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 140px;
+    flex-wrap: wrap;
+}
+
+.cards {
+    background-color: white;
+    width: 400px;
+    height: 540px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.cards-image {
+    background-color: rgb(255, 255, 255);
+    height: 270px;
+    margin-bottom: 15px;
+    background-size: cover;
+
+
+}
+
+.cards-1 {
+    background-image: url(images/twitter.gif);
+}
+
+.cards-2 {
+    background-image: url(images/octocat.gif);
+}
+
+.cards-3 {
+    background-image: url(images/linkedin.gif);
+}
+
+
+
+.cards p {
+    padding: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:hover{
+    background-color: rgb(87, 108, 114);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all ls ease;
+}
